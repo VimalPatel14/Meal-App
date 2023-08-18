@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/loading" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/favourite"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_gravity="right"
+        android:layout_height="@dimen/_30sdp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/ic_favorite_essential" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#D3FFFFFF"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textStyle="bold"
+        tools:text="@tools:sample/full_names" />
+
+</androidx.cardview.widget.CardView>

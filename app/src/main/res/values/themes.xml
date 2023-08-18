@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MealApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MealApp" parent="Base.Theme.MealApp" />
+
+    <style name="TitleText.XLarge" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/essential_color</item>
+        <item name="android:textSize">@dimen/double_extra_large_size</item>
+    </style>
+
+    <style name="TitleText.Large" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/essential_color</item>
+        <item name="android:textSize">@dimen/extra_large_size</item>
+    </style>
+</resources>
