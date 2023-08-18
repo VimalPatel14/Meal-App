@@ -6,6 +6,8 @@
 <ul>
     <li>Bottom Navigation: The app features a bottom navigation bar with three tabs: Home, Search, and Favourites.</li>
     <li>Navigation Graph: The navigation between fragments is managed using the Android Navigation component's navigation graph.</li>
+    <li>Dagger Hilt for dependency injection, ensuring a robust and scalable app structure.</li>
+    <li>Facebook Shimmer integration to provide loading animations on the start screen.</li>
     <li>Home Fragment: Displays a list of meal categories using RecyclerView. Users can mark categories as favorites.</li>
     <li>Favourites Fragment: Shows all the categories that users have marked as favorites. Data is persisted using Room Database.</li>
     <li>Meal List Fragment: Presents a list of meals within a selected category. Users can click on a meal to view its details.</li>
@@ -40,6 +42,8 @@
 
 <h2>Dependencies</h2>
 <ul>
+    <li><a href="https://developer.android.com/training/dependency-injection/hilt-android">Dagger Hilt</a>: For dependency injection.</li>
+    <li><a href="https://github.com/facebook/shimmer-android">Facebook Shimmer</a>: For loading animations.</li>
     <li><a href="https://developer.android.com/topic/libraries/architecture">Android Architecture Components</a></li>
     <li><a href="https://square.github.io/retrofit/">Retrofit</a></li>
     <li><a href="https://github.com/bumptech/glide">Glide</a></li>
