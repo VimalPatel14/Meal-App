@@ -74,6 +74,7 @@
 
                 <WebView
                     android:id="@+id/webview"
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_150sdp"
                     android:layout_margin="@dimen/_10sdp" />
