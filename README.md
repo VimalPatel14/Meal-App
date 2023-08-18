@@ -1,6 +1,6 @@
 <h1>Meal App</h1>
 
-<p>Meal App is a demo Android application that allows users to explore various meal categories, view meals within those categories, mark favorite categories, and search for specific meals by name. The app leverages the MVVM architecture and utilizes the <a href="https://www.themealdb.com/api/json/v1/1/">TheMealDB API</a> to fetch meal data.</p>
+<p>Meal App is a demo Android application that allows users to explore various meal categories, view meals within those categories, mark favorite categories, and search for specific meals by name. The app leverages the MVVM architecture and utilizes the <a href="https://www.themealdb.com/api.php">TheMealDB API</a> to fetch meal data.</p>
 
 <h2>Features</h2>
 <ul>
@@ -49,10 +49,7 @@
 </ul>
 
 <h2>Credits</h2>
-<p>This app uses the <a href="https://www.themealdb.com/api/json/v1/1/">TheMealDB API</a> to fetch meal data. Special thanks to the contributors of TheMealDB for providing this resource.</p>
-
-<h2>License</h2>
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+<p>This app uses the <a href="https://www.themealdb.com/api.php">TheMealDB API</a> to fetch meal data. Special thanks to the contributors of TheMealDB for providing this resource.</p>
 
 <hr>
 
