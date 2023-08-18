@@ -35,7 +35,7 @@
 <h2>Usage</h2>
 <p>To use the app, you can follow these steps:</p>
 <ol>
-    <li>Clone the repository: <code>git clone https://github.com/yourusername/meal-app.git</code></li>
+    <li>Clone the repository: <code>git clone https://github.com/VimalPatel14/Meal-App.git</code></li>
     <li>Open the project in Android Studio.</li>
     <li>Build and run the app on an emulator or a physical device.</li>
 </ol>
